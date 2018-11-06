@@ -1,0 +1,34 @@
+:root{
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+body{
+    text-align: center;
+    background: #0080c0;
+    color: white;
+    font-family: Roboto;
+    font-size: 1.5rem;
+}
+
+.hl{
+    color: var(--base);
+}
+
+h2{
+    font-size: 3rem;
+}
+
+img{
+    border: var(--spacing) solid var(--base);
+    filter: blur(var(--blur));
+}
+
+input{
+    width: 100px;
+}
+
+.controls{
+    margin-bottom: 2rem;
+}
